@@ -1,0 +1,53 @@
+{% extends 'core/base.html' %}
+{% block title %}Acerca de{% endblock %}
+{% block background %}{% load static %}{% static 'core/img/analista_1.jpg' %}{% endblock %}
+{% block headers %}
+<h1>Acerca de</h1>
+<span class="subheading">Biografía</span>
+{% endblock %}
+{% block content %}
+<div class="row"> 
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/sergio.jpg'%}" alt="">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <ul class="list-group">
+        <li class="list-group-item active"><h3>TAREAS QUE REALIZO:</h3></li>
+        <li class="list-group-item"><p>*Examinar y evaluar sistemas informáticos.</p></li>
+        <li class="list-group-item"><p>*Analizar problemas de procesamiento de datos.</p></li>
+        <li class="list-group-item"><p>*Consultor informático y de soporte técnico.</p></li>
+        <li class="list-group-item"><p>*Programador.</p></li>
+        <li class="list-group-item"><p>*Aplicación de la informática a la gestión administrativa.</p></li>
+        <li class="list-group-item"><p>*Capacidad de recibir instrucciones, trabajo en equipo.</p></li>
+        <li class="list-group-item"><p>*Respuesta a horarios fijados.</p></li>
+        <li class="list-group-item"><p>*Habilidad de comunicación.</p></li>
+        </ul>
+       
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Sergio Espinosa</h2>   
+        <p>Nacido el 07 de Septiembre de 1997 en la localidad de la Viña provincia de Salta Argentina, Código postal: 4425. Reside en Mariano Moreno 550, La Viña Salta. <br>
+         Licencia de conducir: en vigencia, tipo A1 - B1. Disponibilidad horaria: full time</p>
+        <hr>
+        <br>
+        <ul class="list-group">
+        <li class="list-group-item active"><h3>EDUCACIÓN</h3></li>
+        <li class="list-group-item"><h5>PRIMARIA COMPLETA </h5>
+        <p>Esc. N° 4080 "Gral. Dionisio de Puch" - La Viña, Salta</p></li>
+        <br>
+        <li class="list-group-item"><h5>SECUNDARIA COMPLETA</h5>
+        <p>Colegio Sec. N° 5042 "Manuel José Castilla", Orientación Ciencias Sociales y Humanística - La Viña, Salta</p></li>
+        <br>
+        <li class="list-group-item"><h5>TERCIARIA COMPLETA</h5>
+        <p>Instituto Superior del Milagro N° 8207 -Recibido en Tecnicatura Superior en Análisis de Sistemas de Computación. - Alvarado 951,Salta.</p></li>
+        <br>
+        <li class="list-group-item"><h5>OTROS</h5>
+        <p>IITA- Instituto de Innovación y Tecnología Aplicada - Curso de Programación en Python - Buenos Aires 135, Salta.</p></li>
+        <br>
+        </ul>
+    </div>
+</div>    
+{% endblock %}
